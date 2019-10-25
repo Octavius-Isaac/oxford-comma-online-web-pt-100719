@@ -11,7 +11,7 @@ def oxford_comma(array)
     p array 
     sentence = array.join(", ")
     p sentence
-    sentence2 = sentence << ", and #{add_array}"
+    sentence2 = sentence << ", and #{new_array}"
     return sentence2 
   end
 end
