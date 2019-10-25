@@ -5,7 +5,8 @@ def oxford_comma(array)
     return array.join(" and ")
   else 
     p array          #returns array          
-    new_array = array.last()
+    new_array = array.last 
+    p new_array
     array.pop  
     p array 
     sentence = array.join(", ")
